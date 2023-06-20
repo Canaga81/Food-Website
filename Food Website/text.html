@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Website</title>
+</head>
+<body>
+
+    <div class="header">
+        <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+
+        <nav class="navbar  ">
+            <a href="#home" id="home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#rewiew">Rewiew</a>
+            <a href="#contack">Contack</a>
+            <a href="#blog">Blogs</a>
+        </nav>
+
+        <div class="buttons">
+
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button id="cart-item-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+
+            <button id="bars-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="search-form ">
+                <input type="text" placeholder="Search" id="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="cart-item-container  ">
+
+                <div class="cart-item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="images/menu-1.png">
+                    <div class="content">
+                        <h3>Cart Item 1</h3>
+                        <div class="price">$15.99</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="images/menu-2.png">
+                    <div class="content">
+                        <h3>Cart Item 2</h3>
+                        <div class="price">$18.99</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="images/menu-3.png">
+                    <div class="content">
+                        <h3>Cart Item 3</h3>
+                        <div class="price">$12.99</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="images/menu-4.png">
+                    <div class="content">
+                        <h3>Cart Item 4</h3>
+                        <div class="price">$21.99</div>
+                    </div>
+                </div>
+
+                <a href="#">Checket Now</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h1>EXPRESS<br>HOME DELIVERY</h1>
+            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.<br>Blanditiis Nostrum Ex Nobis Illum, Doloremque Aut.</p>
+            <a href="#">Order Now</a>
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading"><span>OUR</span> MENU</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-1.png" alt="">
+                    <span>Pizza</span>
+                    <h3>6 MINI<br>Pizzas</h3>
+                    <div class="price">$39.99 <span class="no-price">$59.99</span></div>
+                </div>
+
+                <div class="box-bottom">
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-2.png" alt="">
+                    <span>Gamburger</span>
+                    <h3>6 MINI<br>GAMBURGER</h3>
+                    <div class="price">$19.99 <span class="no-price">$27.99</span></div>
+                </div>
+
+                <div class="box-bottom">
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-3.png" alt="">
+                    <span>Pizza</span>
+                    <h3>6 BIG<br>Pizzas</h3>
+                    <div class="price">$48.99 <span class="no-price">$69.99</span></div>
+                </div>
+
+                <div class="box-bottom">
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-1.png" alt="">
+                    <span>Pizza</span>
+                    <h3>3<br>Pizzas</h3>
+                    <div class="price">$36.99 <span class="no-price">$42.99</span></div>
+                </div>
+
+                <div class="box-bottom">
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading"><span>OUR</span> PRODUCTS</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span>Mini Burger</span>
+                    <h3>Bacon Burger</h3>
+                </div>
+
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                </div>
+
+                <div class="box-bottom">
+                    <div class="info">
+                        <b>$18.00</b><br>
+                        <span>110gr/330cal</span>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <span>Mini Burger</span>
+                    <h3>Dark Burger</h3>
+                </div>
+
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+
+                <div class="box-bottom">
+                    <div class="info">
+                        <b>$24.00</b><br>
+                        <span>120gr/360cal</span>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <span>Pizza</span>
+                    <h3>Big Pizza</h3>
+                </div>
+
+                <div class="image">
+                    <img src="images/menu-1.png" alt="">
+                </div>
+
+                <div class="box-bottom">
+                    <div class="info">
+                        <b>$39.00</b><br>
+                        <span>600gr/1200cal</span>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>OUR</span> ABOUT</h1>
+
+        <div class="box-container">
+
+            <img src="images/about.jpg">
+
+            <div class="box">
+
+                <h1>What Is Secret Recipe Of Our Burgers ?</h1>
+
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, 
+                    Adipisicing Elit. Tempora Eaque Assumenda 
+                    Maxime, Error Iusto Nihil Earum Voluptatum Dolores.
+                </p>
+
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, 
+                    Adipisicing Elit. Tempora Eaque Assumenda 
+                    Maxime, Error Iusto Nihil Earum Voluptatum Dolores.
+                </p>
+
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, 
+                    Adipisicing Elit. Tempora Eaque Assumenda 
+                    Maxime, Error Iusto Nihil Earum Voluptatum Dolores.
+                </p>
+
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, 
+                    Adipisicing Elit. Tempora Eaque Assumenda 
+                    Maxime, Error Iusto Nihil Earum Voluptatum Dolores.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="rewiew" id="rewiew">
+        <h1 class="heading"><span>OUR</span> REWIEW</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="img">
+                    <img src="images/quote.png">
+                </div>
+
+                <div class="box-center">
+                    <p>Lorem Ipsum Dolor Sit Amet, 
+                        Consectetur Adipisicing Elit. 
+                        Sint Asperiores Nam, Aliquid Quam 
+                        Impedit Maxime! At Repellat Modi 
+                        Ipsam Delectus Rerum Beatae 
+                        Nesciunt Asperiores!
+                    </p>
+                    <img src="images/avatar-1.png">
+                    <h3>Elif Eylul</h3>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img">
+                    <img src="images/quote.png">
+                </div>
+
+                <div class="box-center">
+                    <p>Lorem Ipsum Dolor Sit Amet, 
+                        Consectetur Adipisicing Elit. 
+                        Sint Asperiores Nam, Aliquid Quam 
+                        Impedit Maxime! At Repellat Modi 
+                        Ipsam Delectus Rerum Beatae 
+                        Nesciunt Asperiores!
+                    </p>
+                    <img src="images/avatar-2.png">
+                    <h3>Polat Alemdar</h3>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img">
+                    <img src="images/quote.png">
+                </div>
+
+                <div class="box-center">
+                    <p>Lorem Ipsum Dolor Sit Amet, 
+                        Consectetur Adipisicing Elit. 
+                        Sint Asperiores Nam, Aliquid Quam 
+                        Impedit Maxime! At Repellat Modi 
+                        Ipsam Delectus Rerum Beatae 
+                        Nesciunt Asperiores!
+                    </p>
+                    <img src="images/avatar-3.png">
+                    <h3>Leyla Alemdar</h3>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contack" id="contack">
+        <h1 class="heading"><span>CONTACK</span> US</h1>
+
+        <div class="box-container">
+            <div class="box ifrm">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.18588939894!2d49.8549596!3d40.394592499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2zQmFrw7w!5e0!3m2!1str!2saz!4v1687281183218!5m2!1str!2saz" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="box">
+
+                <form>
+
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Telephone</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Enter</button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+
+        <h1 class="heading"><span>OUR</span> BLOG</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="picture">
+                    <img src="images/blog-1.jpg">
+                </div>
+
+                <div class="main-text">
+                    <a href="#">How To Make Burgers?</a><br>
+                    <span>By Admin / 18th May, 2023</span>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur 
+                        Adipisicing Elit. Fugiat Quia Corrupti 
+                        Aliquid Labore Illum Consequuntur 
+                        Harum? Blanditiis, Rem.
+                    </p>
+                </div>
+
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+
+            <div class="box">
+
+                <div class="picture">
+                    <img src="images/blog-2.jpg">
+                </div>
+
+                <div class="main-text">
+                    <a href="#">How To Make Burgers?</a><br>
+                    <span>By Admin / 18th May, 2023</span>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur 
+                        Adipisicing Elit. Fugiat Quia Corrupti 
+                        Aliquid Labore Illum Consequuntur 
+                        Harum? Blanditiis, Rem.
+                    </p>
+                </div>
+
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+
+            <div class="box">
+
+                <div class="picture">
+                    <img src="images/blog-3.jpg">
+                </div>
+
+                <div class="main-text">
+                    <a href="#">How To Make Burgers?</a><br>
+                    <span>By Admin / 18th May, 2023</span>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur 
+                        Adipisicing Elit. Fugiat Quia Corrupti 
+                        Aliquid Labore Illum Consequuntur 
+                        Harum? Blanditiis, Rem.
+                    </p>
+                </div>
+
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="input-content">
+            <form class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                  <label for="staticEmail2" class="sr-only">Email</label>
+                  <input type="email" class="form-control" id="staticEmail2" placeholder="Email">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Search</button>
+            </form>
+        </div>
+
+        <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-github"></i>
+        </div>
+
+        <div class="text-name">
+            <p>Created By <span>Canaga Memmedov</span> | All Right Reserved</p>
+        </div>
+    </footer>
+
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
